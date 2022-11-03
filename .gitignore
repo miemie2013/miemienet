@@ -31,4 +31,5 @@ test/save_data/
 *.mie
 
 gen_code*.txt
+simd_*.txt
 

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="miemienet\miemienet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\framework\config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\framework\layer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\framework\memoryallocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\framework\tensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\framework\tensoridmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\activation_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\avgpool2d_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\conv2d_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\elementwise_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\matmul_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\maxpool2d_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\activation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\avgpool2d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\conv2d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\maxpool2d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\concat_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\interp_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\reduce_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\softmax_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\common\transpose_common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\concat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\interp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\reduce.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\softmax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\transpose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\backbones\cspresnet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\necks\custom_pan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\heads\ppyoloe_head.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\architectures\ppyoloe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\backbones\lcnet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\architectures\picodet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\sequential.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemienet\nn\layerlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\necks\csp_pan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miemiedet\models\heads\pico_head.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test2_002_ppyoloe_mm_x86.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="miemienet\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\miemienet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\framework\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\framework\layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\framework\memoryallocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\framework\tensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\framework\tensoridmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\activation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\avgpool2d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\conv2d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\maxpool2d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\activation_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\avgpool2d_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\conv2d_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\elementwise_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\matmul_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\maxpool2d_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\concat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\interp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\reduce.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\softmax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\transpose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\concat_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\interp_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\reduce_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\softmax_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\common\transpose_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\miemiedet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\backbones\cspresnet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\necks\custom_pan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\heads\ppyoloe_head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\architectures\ppyoloe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\backbones\lcnet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\architectures\picodet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\sequential.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemienet\nn\layerlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\necks\csp_pan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="miemiedet\models\heads\pico_head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

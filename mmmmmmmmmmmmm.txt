@@ -1,0 +1,345 @@
+
+
+pycharm ide, File | Settings | Editor | File Types
+在C/C++一栏加入
+*.cu
+*.cuh
+
+就能让 *.cu *.cuh 代码高亮了！
+
+
+------------------------------ Cmake众多名字 ------------------------------
+
+project(mm2ncnn)
+第一个参数是VS解决方案的名字 即xxx.sln
+
+add_executable(main ${SRCS})
+第一个参数是可执行文件的文件名 即xxx.vcxproj、xxx.exe
+
+------------------------------ (end) ------------------------------
+
+
+
+------------------------------ TO DO ------------------------------
+锁层训练：
+只要设置可训练权重的requires_grad为false，即可锁（冻结）权重训练。
+
+当输入张量经过的前n个层都锁住时，建议前面n层的create_graph设置为false，且第n个层的输出张量的requires_grad为false，
+这样前向传播时就不会新建XxxGrad层对象，不记录不建立前n层的反向层，提高训练效率。
+
+锁住某个层和其子层的权重，建议使用Layer类的requires_grad_(bool)函数(和torch.nn.Module的requires_grad_(bool)函数一样)，
+这个函数会设置这个层和其子层的权重的requires_grad为指定的布尔值。但是不能设置
+
+GAN的生成器和判别器实际上也可以看成是1个网络，因为输入张量经过生成器和判别器时，只产生1个计算图，
+或者说生成器和判别器的计算图是连通的。GAN就是交替锁住生成器和判别器进行训练的。
+
+
+彻底完成卷积层和全连接层权重初始化。bn层权重初始化已经完全正确。init.cu加入各种初始化方法。
+
+------------------------------ (end) ------------------------------
+
+
+------------------------------ Paddle自定义外部算子 ------------------------------
+
+https://github.com/PaddlePaddle/Paddle/issues/40800
+
+https://github.com/PaddlePaddle/Paddle/pull/40963
+
+tensor类
+https://gitee.com/paddlepaddle/Paddle/blob/release/2.0/paddle/fluid/framework/tensor.h
+
+可变形卷积
+https://gitee.com/paddlepaddle/Paddle/blob/release/2.0/paddle/fluid/operators/deformable_conv_op.h
+
+全连接层
+https://gitee.com/paddlepaddle/Paddle/blob/release/2.0/paddle/fluid/operators/matmul_v2_op.h
+
+https://gitee.com/paddlepaddle/Paddle/blob/release/2.0/paddle/fluid/operators/matmul_v2_op.cu
+
+reduce_sum层
+https://gitee.com/paddlepaddle/Paddle/blob/release/2.0/paddle/fluid/operators/reduce_ops/cub_reduce.h
+
+
+BN层
+https://gitee.com/paddlepaddle/Paddle/blob/release/2.0/paddle/fluid/operators/batch_norm_op.cu
+计算均值方差用welford算法
+
+
+不可以在cuda代码里使用std::string，否则链接错误：
+error LNK2019: 无法解析的外部符号 "public: __cdecl miemienet::Tensor<float>::Tensor<float>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool)"
+
+
+Tensor类构造函数参数编译报错：
+redefinition of default parameter
+在Tensor类头文件，构造函数声明中设置默认值，在构造函数实现部分，应该把默认值去掉。
+
+
+
+src/nn/functional/目录下*.cuh头文件没有对应的*.cu文件，当你需要调用例如 NS_MM_F::matmul(x, y); 时，需要在当前源码文件开头加上
+#include "nn/functional/matmul.cuh"
+之类的明文引用include。
+matmul.cuh里依赖Tensor，但是不需要包含tensor.h，因为其他源码文件已经包含过了。
+
+
+miemienet设计的一些约定：
+所有神经网络前向操作(比如reshape, permute, torch.sigmoid, F.relu等)都需要新建1个Layer对象，再调用Layer对象的前向函数完成。
+因为miemienet使用图记录神经网络的前向传播，Tensor是节点，Layer是边，Layer负责连接节点的关系，所以必须要新建Layer，不能直接调用
+Tensor* z = NS_MM_F::matmul(x, y);
+不能直接调用nn/functional/下的api来建立神经网络训练。
+
+
+
+
+C++在for循环里不停地new对象，
+    for (int batch_idx = 0; batch_idx < 99999999; batch_idx++)
+    {
+        Tensor* x = new SNT Tensor(x_shape, Tensor::DTYPE::FP32, true, false, false);
+        ...
+        delete x;
+    }
+在最后一定要手动delete, 否则内存爆炸。
+每一个step结束后应该是否掉不是权重的张量，释放掉梯度层，某些id置0
+Tensor类（其它类也是）的析构函数要保证释放掉所有它的指针成员;
+XxxGrad类是Xxx类的反向层，XxxGrad类的析构函数不要释放掉权重指针;
+    Tensor* weight;
+    Tensor* bias;
+因为这些权重指针是指向Xxx类的权重的，应该归Xxx类管理。（理论上只要程序在运行，
+不管训练阶段还是推理阶段，这些权重应该一直都在，不需要释放）
+
+
+全连接层反向传播后，x, w形状会发生改变(reshape)，要reshape回原来的形状。
+
+
+loss->backward(); 时，反向传播。实际上是新建立一个计算图，这个计算图的前向时的计算图是不连通的！
+这个计算图的输入是dlossdloss，即一个形状与loss相同，但值全是1的张量(即loss->grad)。
+这就是为什么LinearGrad类只有名为forward的函数，没有名为backward的函数的原因。
+前向图的建立是从输入张量传入网络第一个层开始的，反向图的建立是从loss->backward()函数内部开始的。两个图是不连通的。
+
+不再建立这个层的反向层。
+
+
+
+Tensor::backward()方法中，
+        LinearGrad* glayer = (LinearGrad*)grad_layer;
+        glayer->create_graph = false;   // loss->backward(); 时，不再建立这个层的反向层。
+        Tensor* dydx = glayer->forward(this->grad);
+        delete glayer;
+当计算完了dydx，释放反向层的内存，只要delete 子指针 或 父指针 即可。不可以同时delete 子指针 和 父指针
+https://www.zhihu.com/question/412137391
+如何判断该指针是否已经释放？再主动delete一次，崩了就说明已经释放。
+
+
+Tensor::backward()方法中，
+    std::vector<int>* grad_shape = new std::vector<int>;
+    for (int i = 0; i < this->shape->size(); i++)
+    {
+        grad_shape->push_back(this->shape->at(i));
+    }
+    this->grad = new SNT Tensor(grad_shape, FP32, false);
+新建梯度张量时，不能直接传this->shape，因为如果某处delete 这个张量的grad时，这个张量和这个张量的grad 共享的shape指针会被释放掉（析构函数中会释放shape指针），
+这个张量的shape指针就会是空指针，正确做法是给这个张量的grad 新new一个grad_shape指针对象。
+
+
+新增一个层：
+nn/cuda/xxx.cu
+nn/cuda/xxx.cuh
+nn/xxx.cpp
+nn/xxx.h
+miemienet.h 里添加 #include "nn/xxx.h"
+nn/function.cu 里添加相关函数实现
+nn/function.h  里添加相关函数声明
+添加测试用例
+
+
+------------------------------ (end) ------------------------------
+
+
+https://blog.csdn.net/seaun163/article/details/107629909/
+
+sudo gedit /usr/share/cmake-3.16/Modules/FindCUDA.cmake
+
+
+find /usr/local/cuda-11.1 -name *cublas_v2.h*
+
+
+(ubuntu)
+用下面CMake命令编译会报错。非常难解决，不建议使用cmake了。而是用build.py进行命令行编译。
+
+```
+  Could NOT find CUDA (missing: CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) (found
+  version "11.1")
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-3.16/Modules/FindCUDA.cmake:1104 (find_package_handle_standard_args)
+  CMakeLists.txt:35 (find_package)
+```
+
+mkdir build
+
+cd build
+
+rm -f CMakeCache.txt && cmake -DCMAKE_BUILD_TYPE=Release ..
+
+rm -f CMakeCache.txt && cmake -DCMAKE_BUILD_TYPE=Release -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-11.1 ..
+
+cmake --build . --config Release -j 2
+
+
+
+--     OpenCV_INSTALL_PATH: /usr
+--     OpenCV_VERSION: 4.2.0
+--     OpenCV_LIBS: opencv_core;opencv_highgui;opencv_imgproc;opencv_imgcodecs;opencv_videoio
+--     OpenCV_INCLUDE_DIRS: /usr/include/opencv4
+
+
+sudo find /usr -name *libopencv_core*
+
+sudo find /usr -name *libopencv_highgui*
+
+sudo find /usr -name *libopencv_imgcodecs*
+
+sudo find /usr -name *libopencv_imgproc*
+
+sudo find /usr -name *libopencv*
+
+sudo find /usr/local/cuda-11.1 -name *libcublas*
+
+
+
+build.py进行命令行编译:
+
+python build.py --platform LINUX --cxx g++ --backend BACKEND_X86 --exec_file test2_001_conv_mm_x86
+
+./test2_001_conv_mm_x86.out test/000000000019.jpg
+
+
+python build.py --platform LINUX --cxx g++ --backend BACKEND_X86 --exec_file test2_002_ppyoloe_mm_x86
+
+./test2_002_ppyoloe_mm_x86.out test/000000000019.jpg
+
+
+实现这几个：
+Softmax
+concat
+reduce
+Interp F.interpolate(route, scale_factor=2.)
+
+torch_code_2_miemienet_code.py
+像gen_code.py那样，将pytorch的代码转成miemienet的代码，比如
+
+class Res(nn.Module):
+    def __init__(self, in_features, out_features, kernel_size, stride, padding, bias=True):
+        super(Res, self).__init__()
+        self.fc = nn.Conv2d(in_features, out_features, kernel_size, stride, padding, bias=True)
+        torch.nn.init.normal_(self.fc.bias, 0., 1.)
+        self.act = nn.LeakyReLU(0.33)
+
+    def __call__(self, x):
+        y = self.fc(x)
+        y = self.act(y)
+        return y + x
+
+转成C++代码，变量类型可以先随便用个字符串(比如int)代替。
+
+
+
+error: ‘exit’ was not declared in this scope   解决：#include <stdlib.h>
+error: ‘malloc’ was not declared in this scope   解决：#include <stdlib.h>
+error: ‘memset’ was not declared in this scope   解决：#include <string.h>
+error: ‘strcpy’ was not declared in this scope   解决：#include <string.h>
+error: ‘FILE’ was not declared in this scope   解决：#include <cstdio>
+error: ‘fopen’ was not declared in this scope   解决：#include <cstdio>
+error: ‘find’ is not a member of ‘std’   解决：#include <iostream>
+error: no matching function for call to ‘find(std::vector<int>::iterator, std::vector<int>::iterator, int&)’   解决：#include <algorithm>
+是的，你没有看错，memset()在头文件<string.h>里。实际上memset()是以字符为单位初始化填充，所以理论上不能初始化单精度浮点型（4字节）
+
+大部分问题可以通过包含3个头文件解决：
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+使用std::find()时：
+#include <iostream>
+#include <algorithm>
+
+
+
+//    const int num_threads = 12;
+//    std::vector<std::thread> threads;
+//    for (int tid = 0; tid < num_threads; tid++)
+//    {
+//        std::thread work_thread(im2col_kernel2, tid, num_threads, input->data_fp32, im2col->data_fp32, im2col->numel, N, out_H, out_W, in_C, kH, kW, H, W, stride_h, stride_w, padding_h, padding_w, dilation_h, dilation_w, groups);
+//        threads.push_back(work_thread);
+//    }
+//    for (int tid = 0; tid < num_threads; tid++)
+//    {
+//        threads.at(tid).join();
+//    }
+//        std::thread work_thread1(im2col_kernel2, 0, num_threads, input->data_fp32, im2col->data_fp32, im2col->numel, N, out_H, out_W, in_C, kH, kW, H, W, stride_h, stride_w, padding_h, padding_w, dilation_h, dilation_w, groups);
+//        std::thread work_thread2(im2col_kernel2, 1, num_threads, input->data_fp32, im2col->data_fp32, im2col->numel, N, out_H, out_W, in_C, kH, kW, H, W, stride_h, stride_w, padding_h, padding_w, dilation_h, dilation_w, groups);
+//        std::thread work_thread3(im2col_kernel2, 2, num_threads, input->data_fp32, im2col->data_fp32, im2col->numel, N, out_H, out_W, in_C, kH, kW, H, W, stride_h, stride_w, padding_h, padding_w, dilation_h, dilation_w, groups);
+//        std::thread work_thread4(im2col_kernel2, 3, num_threads, input->data_fp32, im2col->data_fp32, im2col->numel, N, out_H, out_W, in_C, kH, kW, H, W, stride_h, stride_w, padding_h, padding_w, dilation_h, dilation_w, groups);
+//        work_thread1.join();
+//        work_thread2.join();
+//        work_thread3.join();
+//        work_thread4.join();
+
+
+
+(win10)
+mkdir build
+
+cd build
+
+del CMakeCache.txt ; cmake -DCMAKE_BUILD_TYPE=Release -DOpenCV_DIR=D://opencv/build .. ; cmake --build . --config Release -j 2
+
+./Release/for
+
+./Release/test_cuda
+
+./Release/test_graph ../res/images/000000000019.jpg
+
+
+del CMakeCache.txt ; cmake -DCMAKE_BUILD_TYPE=Release ..
+
+
+(或者)
+
+python build.py --platform WINDOWS --cxx g++ --backend BACKEND_X86 --exec_file test2_001_conv_mm_x86 --OpenCV_INCLUDE_DIRS D://opencv/build/include --OpenCV_LIBS D://opencv/build/x64/vc15/lib
+
+
+
+./for
+
+./test_cuda
+
+./test_graph res/images/000000000019.jpg
+
+
+
+./test2_001_conv_mm_x86 0.6 0.0 0.77 1
+
+
+./test2_001_conv_mm 0.6 0.0 0.77 1
+
+./test2_002_conv_mm 0.6 0.0 0.77 1
+
+
+VS常见命令行参数配置(xxx.vcxproj文件)：
+      <SDLCheck>false</SDLCheck>     使用sprintf()、fopen()、strcpy()这些函数不报错，而不是强制使用sprintf_s()、fopen_s()、strcpy_s()，不用被喂屎。
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalOptions>/D "WINDOWS" /D "BACKEND_X86" %(AdditionalOptions)</AdditionalOptions>   定义宏
+      <Optimization>MaxSpeed</Optimization>     优先优化代码的速度
+      <OpenMPSupport>true</OpenMPSupport>       支持OpenMP多线程
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>      编译时不检查没有初始化的指针，不用被喂屎。
+
+C++ 无法从“const char [ ]”转换为“char *”
+在项目属性中 ，把符合模式更改为 ‘否’
+
+
+把x64/Release 里的 miemienet.exe 复制到项目根目录
+./miemienet.exe test/000000000019.jpg
+
+
+
+

@@ -1,0 +1,1237 @@
+WINDOWS
+miemienet-0.1
+num_threads=12
+create Param, id=19950817, dims=4, numel=2400
+create Param, id=19950818, dims=4, numel=96
+create Param, id=19950819, dims=4, numel=9216
+create Param, id=19950820, dims=4, numel=96
+create Param, id=19950821, dims=4, numel=2400
+create Param, id=19950822, dims=4, numel=96
+create Param, id=19950823, dims=4, numel=9216
+create Param, id=19950824, dims=4, numel=96
+create Param, id=19950825, dims=4, numel=9216
+create Param, id=19950826, dims=4, numel=96
+create Param, id=19950827, dims=4, numel=9216
+create Param, id=19950828, dims=4, numel=96
+create Param, id=19950829, dims=4, numel=2400
+create Param, id=19950830, dims=4, numel=96
+create Param, id=19950831, dims=4, numel=9216
+create Param, id=19950832, dims=4, numel=96
+create Param, id=19950833, dims=4, numel=2400
+create Param, id=19950834, dims=4, numel=96
+create Param, id=19950835, dims=4, numel=9216
+create Param, id=19950836, dims=4, numel=96
+create Param, id=19950837, dims=4, numel=9216
+create Param, id=19950838, dims=4, numel=96
+create Param, id=19950839, dims=4, numel=9216
+create Param, id=19950840, dims=4, numel=96
+create Param, id=19950841, dims=4, numel=2400
+create Param, id=19950842, dims=4, numel=96
+create Param, id=19950843, dims=4, numel=9216
+create Param, id=19950844, dims=4, numel=96
+create Param, id=19950845, dims=4, numel=2400
+create Param, id=19950846, dims=4, numel=96
+create Param, id=19950847, dims=4, numel=9216
+create Param, id=19950848, dims=4, numel=96
+create Param, id=19950849, dims=4, numel=9216
+create Param, id=19950850, dims=4, numel=96
+create Param, id=19950851, dims=4, numel=9216
+create Param, id=19950852, dims=4, numel=96
+create Param, id=19950853, dims=4, numel=2400
+create Param, id=19950854, dims=4, numel=96
+create Param, id=19950855, dims=4, numel=9216
+create Param, id=19950856, dims=4, numel=96
+create Param, id=19950857, dims=4, numel=2400
+create Param, id=19950858, dims=4, numel=96
+create Param, id=19950859, dims=4, numel=9216
+create Param, id=19950860, dims=4, numel=96
+create Param, id=19950861, dims=4, numel=9216
+create Param, id=19950862, dims=4, numel=96
+create Param, id=19950863, dims=4, numel=9216
+create Param, id=19950864, dims=4, numel=96
+create Param, id=19950865, dims=4, numel=432
+create Param, id=19950866, dims=4, numel=16
+create Param, id=19950867, dims=4, numel=144
+create Param, id=19950868, dims=4, numel=16
+create Param, id=19950869, dims=4, numel=384
+create Param, id=19950870, dims=4, numel=24
+create Param, id=19950871, dims=4, numel=216
+create Param, id=19950872, dims=4, numel=24
+create Param, id=19950873, dims=4, numel=1152
+create Param, id=19950874, dims=4, numel=48
+create Param, id=19950875, dims=4, numel=432
+create Param, id=19950876, dims=4, numel=48
+create Param, id=19950877, dims=4, numel=2304
+create Param, id=19950878, dims=4, numel=48
+create Param, id=19950879, dims=4, numel=432
+create Param, id=19950880, dims=4, numel=48
+create Param, id=19950881, dims=4, numel=4608
+create Param, id=19950882, dims=4, numel=96
+create Param, id=19950883, dims=4, numel=864
+create Param, id=19950884, dims=4, numel=96
+create Param, id=19950885, dims=4, numel=9216
+create Param, id=19950886, dims=4, numel=96
+create Param, id=19950887, dims=4, numel=864
+create Param, id=19950888, dims=4, numel=96
+create Param, id=19950889, dims=4, numel=18432
+create Param, id=19950890, dims=4, numel=192
+create Param, id=19950891, dims=4, numel=4800
+create Param, id=19950892, dims=4, numel=192
+create Param, id=19950893, dims=4, numel=36864
+create Param, id=19950894, dims=4, numel=192
+create Param, id=19950895, dims=4, numel=4800
+create Param, id=19950896, dims=4, numel=192
+create Param, id=19950897, dims=4, numel=36864
+create Param, id=19950898, dims=4, numel=192
+create Param, id=19950899, dims=4, numel=4800
+create Param, id=19950900, dims=4, numel=192
+create Param, id=19950901, dims=4, numel=36864
+create Param, id=19950902, dims=4, numel=192
+create Param, id=19950903, dims=4, numel=4800
+create Param, id=19950904, dims=4, numel=192
+create Param, id=19950905, dims=4, numel=36864
+create Param, id=19950906, dims=4, numel=192
+create Param, id=19950907, dims=4, numel=4800
+create Param, id=19950908, dims=4, numel=192
+create Param, id=19950909, dims=4, numel=36864
+create Param, id=19950910, dims=4, numel=192
+create Param, id=19950911, dims=4, numel=4800
+create Param, id=19950912, dims=4, numel=192
+create Param, id=19950913, dims=4, numel=73728
+create Param, id=19950914, dims=4, numel=384
+create Param, id=19950915, dims=4, numel=9216
+create Param, id=19950916, dims=4, numel=48
+create Param, id=19950917, dims=4, numel=9216
+create Param, id=19950918, dims=4, numel=192
+create Param, id=19950919, dims=4, numel=9600
+create Param, id=19950920, dims=4, numel=384
+create Param, id=19950921, dims=4, numel=147456
+create Param, id=19950922, dims=4, numel=384
+create Param, id=19950923, dims=4, numel=36864
+create Param, id=19950924, dims=4, numel=96
+create Param, id=19950925, dims=4, numel=36864
+create Param, id=19950926, dims=4, numel=384
+create Param, id=19950927, dims=4, numel=9216
+create Param, id=19950928, dims=4, numel=96
+create Param, id=19950929, dims=4, numel=18432
+create Param, id=19950930, dims=4, numel=96
+create Param, id=19950931, dims=4, numel=36864
+create Param, id=19950932, dims=4, numel=96
+create Param, id=19950933, dims=4, numel=2400
+create Param, id=19950934, dims=4, numel=96
+create Param, id=19950935, dims=4, numel=9216
+create Param, id=19950936, dims=4, numel=96
+create Param, id=19950937, dims=4, numel=2400
+create Param, id=19950938, dims=4, numel=96
+create Param, id=19950939, dims=4, numel=9216
+create Param, id=19950940, dims=4, numel=96
+create Param, id=19950941, dims=4, numel=4800
+create Param, id=19950942, dims=4, numel=192
+create Param, id=19950943, dims=4, numel=36864
+create Param, id=19950944, dims=4, numel=192
+create Param, id=19950945, dims=4, numel=4800
+create Param, id=19950946, dims=4, numel=192
+create Param, id=19950947, dims=4, numel=18432
+create Param, id=19950948, dims=4, numel=96
+create Param, id=19950949, dims=4, numel=4800
+create Param, id=19950950, dims=4, numel=192
+create Param, id=19950951, dims=4, numel=36864
+create Param, id=19950952, dims=4, numel=192
+create Param, id=19950953, dims=4, numel=4800
+create Param, id=19950954, dims=4, numel=192
+create Param, id=19950955, dims=4, numel=18432
+create Param, id=19950956, dims=4, numel=96
+create Param, id=19950957, dims=4, numel=4800
+create Param, id=19950958, dims=4, numel=192
+create Param, id=19950959, dims=4, numel=36864
+create Param, id=19950960, dims=4, numel=192
+create Param, id=19950961, dims=4, numel=4800
+create Param, id=19950962, dims=4, numel=192
+create Param, id=19950963, dims=4, numel=18432
+create Param, id=19950964, dims=4, numel=96
+create Param, id=19950965, dims=4, numel=4800
+create Param, id=19950966, dims=4, numel=192
+create Param, id=19950967, dims=4, numel=36864
+create Param, id=19950968, dims=4, numel=192
+create Param, id=19950969, dims=4, numel=4800
+create Param, id=19950970, dims=4, numel=192
+create Param, id=19950971, dims=4, numel=18432
+create Param, id=19950972, dims=4, numel=96
+create Param, id=19950973, dims=4, numel=2400
+create Param, id=19950974, dims=4, numel=96
+create Param, id=19950975, dims=4, numel=9216
+create Param, id=19950976, dims=4, numel=96
+create Param, id=19950977, dims=4, numel=4800
+create Param, id=19950978, dims=4, numel=192
+create Param, id=19950979, dims=4, numel=36864
+create Param, id=19950980, dims=4, numel=192
+create Param, id=19950981, dims=4, numel=4800
+create Param, id=19950982, dims=4, numel=192
+create Param, id=19950983, dims=4, numel=18432
+create Param, id=19950984, dims=4, numel=96
+create Param, id=19950985, dims=4, numel=2400
+create Param, id=19950986, dims=4, numel=96
+create Param, id=19950987, dims=4, numel=9216
+create Param, id=19950988, dims=4, numel=96
+create Param, id=19950989, dims=4, numel=7680
+create Param, id=19950990, dims=4, numel=80
+create Param, id=19950991, dims=4, numel=3072
+create Param, id=19950992, dims=4, numel=32
+create Param, id=19950993, dims=4, numel=2400
+create Param, id=19950994, dims=4, numel=1
+create Param, id=19950995, dims=4, numel=1
+create Param, id=19950996, dims=4, numel=1
+create Param, id=19950997, dims=4, numel=7680
+create Param, id=19950998, dims=4, numel=80
+create Param, id=19950999, dims=4, numel=3072
+create Param, id=19951000, dims=4, numel=32
+create Param, id=19951001, dims=4, numel=2400
+create Param, id=19951002, dims=4, numel=1
+create Param, id=19951003, dims=4, numel=1
+create Param, id=19951004, dims=4, numel=1
+create Param, id=19951005, dims=4, numel=7680
+create Param, id=19951006, dims=4, numel=80
+create Param, id=19951007, dims=4, numel=3072
+create Param, id=19951008, dims=4, numel=32
+create Param, id=19951009, dims=4, numel=2400
+create Param, id=19951010, dims=4, numel=1
+create Param, id=19951011, dims=4, numel=1
+create Param, id=19951012, dims=4, numel=1
+create Param, id=19951013, dims=4, numel=7680
+create Param, id=19951014, dims=4, numel=80
+create Param, id=19951015, dims=4, numel=3072
+create Param, id=19951016, dims=4, numel=32
+create Param, id=19951017, dims=4, numel=2400
+create Param, id=19951018, dims=4, numel=1
+create Param, id=19951019, dims=4, numel=1
+create Param, id=19951020, dims=4, numel=1
+create Param, id=19951021, dims=4, numel=8
+Warning! Checkpont Param name 'head.p3_feat.scale_reg' not found! miemienet would not load this param.
+Warning! Checkpont Param name 'head.p4_feat.scale_reg' not found! miemienet would not load this param.
+Warning! Checkpont Param name 'head.p5_feat.scale_reg' not found! miemienet would not load this param.
+Warning! Checkpont Param name 'head.p6_feat.scale_reg' not found! miemienet would not load this param.
+Warning! Checkpont Param name 'head.distribution_project.project' not found! miemienet would not load this param.
+param_names[0]=backbone.conv1.conv.weight
+param_names[1]=backbone.conv1.conv.bias
+param_names[2]=backbone.blocks2.0.dw_conv.conv.weight
+param_names[3]=backbone.blocks2.0.dw_conv.conv.bias
+param_names[4]=backbone.blocks2.0.pw_conv.conv.weight
+param_names[5]=backbone.blocks2.0.pw_conv.conv.bias
+param_names[6]=backbone.blocks3.0.dw_conv.conv.weight
+param_names[7]=backbone.blocks3.0.dw_conv.conv.bias
+param_names[8]=backbone.blocks3.0.pw_conv.conv.weight
+param_names[9]=backbone.blocks3.0.pw_conv.conv.bias
+param_names[10]=backbone.blocks3.1.dw_conv.conv.weight
+param_names[11]=backbone.blocks3.1.dw_conv.conv.bias
+param_names[12]=backbone.blocks3.1.pw_conv.conv.weight
+param_names[13]=backbone.blocks3.1.pw_conv.conv.bias
+param_names[14]=backbone.blocks4.0.dw_conv.conv.weight
+param_names[15]=backbone.blocks4.0.dw_conv.conv.bias
+param_names[16]=backbone.blocks4.0.pw_conv.conv.weight
+param_names[17]=backbone.blocks4.0.pw_conv.conv.bias
+param_names[18]=backbone.blocks4.1.dw_conv.conv.weight
+param_names[19]=backbone.blocks4.1.dw_conv.conv.bias
+param_names[20]=backbone.blocks4.1.pw_conv.conv.weight
+param_names[21]=backbone.blocks4.1.pw_conv.conv.bias
+param_names[22]=backbone.blocks5.0.dw_conv.conv.weight
+param_names[23]=backbone.blocks5.0.dw_conv.conv.bias
+param_names[24]=backbone.blocks5.0.pw_conv.conv.weight
+param_names[25]=backbone.blocks5.0.pw_conv.conv.bias
+param_names[26]=backbone.blocks5.1.dw_conv.conv.weight
+param_names[27]=backbone.blocks5.1.dw_conv.conv.bias
+param_names[28]=backbone.blocks5.1.pw_conv.conv.weight
+param_names[29]=backbone.blocks5.1.pw_conv.conv.bias
+param_names[30]=backbone.blocks5.2.dw_conv.conv.weight
+param_names[31]=backbone.blocks5.2.dw_conv.conv.bias
+param_names[32]=backbone.blocks5.2.pw_conv.conv.weight
+param_names[33]=backbone.blocks5.2.pw_conv.conv.bias
+param_names[34]=backbone.blocks5.3.dw_conv.conv.weight
+param_names[35]=backbone.blocks5.3.dw_conv.conv.bias
+param_names[36]=backbone.blocks5.3.pw_conv.conv.weight
+param_names[37]=backbone.blocks5.3.pw_conv.conv.bias
+param_names[38]=backbone.blocks5.4.dw_conv.conv.weight
+param_names[39]=backbone.blocks5.4.dw_conv.conv.bias
+param_names[40]=backbone.blocks5.4.pw_conv.conv.weight
+param_names[41]=backbone.blocks5.4.pw_conv.conv.bias
+param_names[42]=backbone.blocks5.5.dw_conv.conv.weight
+param_names[43]=backbone.blocks5.5.dw_conv.conv.bias
+param_names[44]=backbone.blocks5.5.pw_conv.conv.weight
+param_names[45]=backbone.blocks5.5.pw_conv.conv.bias
+param_names[46]=backbone.blocks6.0.dw_conv.conv.weight
+param_names[47]=backbone.blocks6.0.dw_conv.conv.bias
+param_names[48]=backbone.blocks6.0.pw_conv.conv.weight
+param_names[49]=backbone.blocks6.0.pw_conv.conv.bias
+param_names[50]=backbone.blocks6.0.se.conv1.weight
+param_names[51]=backbone.blocks6.0.se.conv1.bias
+param_names[52]=backbone.blocks6.0.se.conv2.weight
+param_names[53]=backbone.blocks6.0.se.conv2.bias
+param_names[54]=backbone.blocks6.1.dw_conv.conv.weight
+param_names[55]=backbone.blocks6.1.dw_conv.conv.bias
+param_names[56]=backbone.blocks6.1.pw_conv.conv.weight
+param_names[57]=backbone.blocks6.1.pw_conv.conv.bias
+param_names[58]=backbone.blocks6.1.se.conv1.weight
+param_names[59]=backbone.blocks6.1.se.conv1.bias
+param_names[60]=backbone.blocks6.1.se.conv2.weight
+param_names[61]=backbone.blocks6.1.se.conv2.bias
+param_names[62]=neck.conv_t.convs.0.conv.weight
+param_names[63]=neck.conv_t.convs.0.conv.bias
+param_names[64]=neck.conv_t.convs.1.conv.weight
+param_names[65]=neck.conv_t.convs.1.conv.bias
+param_names[66]=neck.conv_t.convs.2.conv.weight
+param_names[67]=neck.conv_t.convs.2.conv.bias
+param_names[68]=neck.first_top_conv.dwconv.weight
+param_names[69]=neck.first_top_conv.dwconv.bias
+param_names[70]=neck.first_top_conv.pwconv.weight
+param_names[71]=neck.first_top_conv.pwconv.bias
+param_names[72]=neck.second_top_conv.dwconv.weight
+param_names[73]=neck.second_top_conv.dwconv.bias
+param_names[74]=neck.second_top_conv.pwconv.weight
+param_names[75]=neck.second_top_conv.pwconv.bias
+param_names[76]=neck.top_down_blocks.0.0.dw_conv.conv.weight
+param_names[77]=neck.top_down_blocks.0.0.dw_conv.conv.bias
+param_names[78]=neck.top_down_blocks.0.0.pw_conv.conv.weight
+param_names[79]=neck.top_down_blocks.0.0.pw_conv.conv.bias
+param_names[80]=neck.top_down_blocks.0.1.dw_conv.conv.weight
+param_names[81]=neck.top_down_blocks.0.1.dw_conv.conv.bias
+param_names[82]=neck.top_down_blocks.0.1.pw_conv.conv.weight
+param_names[83]=neck.top_down_blocks.0.1.pw_conv.conv.bias
+param_names[84]=neck.top_down_blocks.1.0.dw_conv.conv.weight
+param_names[85]=neck.top_down_blocks.1.0.dw_conv.conv.bias
+param_names[86]=neck.top_down_blocks.1.0.pw_conv.conv.weight
+param_names[87]=neck.top_down_blocks.1.0.pw_conv.conv.bias
+param_names[88]=neck.top_down_blocks.1.1.dw_conv.conv.weight
+param_names[89]=neck.top_down_blocks.1.1.dw_conv.conv.bias
+param_names[90]=neck.top_down_blocks.1.1.pw_conv.conv.weight
+param_names[91]=neck.top_down_blocks.1.1.pw_conv.conv.bias
+param_names[92]=neck.top_down_blocks.2.0.dw_conv.conv.weight
+param_names[93]=neck.top_down_blocks.2.0.dw_conv.conv.bias
+param_names[94]=neck.top_down_blocks.2.0.pw_conv.conv.weight
+param_names[95]=neck.top_down_blocks.2.0.pw_conv.conv.bias
+param_names[96]=neck.top_down_blocks.2.1.dw_conv.conv.weight
+param_names[97]=neck.top_down_blocks.2.1.dw_conv.conv.bias
+param_names[98]=neck.top_down_blocks.2.1.pw_conv.conv.weight
+param_names[99]=neck.top_down_blocks.2.1.pw_conv.conv.bias
+param_names[100]=neck.downsamples.0.dwconv.weight
+param_names[101]=neck.downsamples.0.dwconv.bias
+param_names[102]=neck.downsamples.0.pwconv.weight
+param_names[103]=neck.downsamples.0.pwconv.bias
+param_names[104]=neck.downsamples.1.dwconv.weight
+param_names[105]=neck.downsamples.1.dwconv.bias
+param_names[106]=neck.downsamples.1.pwconv.weight
+param_names[107]=neck.downsamples.1.pwconv.bias
+param_names[108]=neck.bottom_up_blocks.0.0.dw_conv.conv.weight
+param_names[109]=neck.bottom_up_blocks.0.0.dw_conv.conv.bias
+param_names[110]=neck.bottom_up_blocks.0.0.pw_conv.conv.weight
+param_names[111]=neck.bottom_up_blocks.0.0.pw_conv.conv.bias
+param_names[112]=neck.bottom_up_blocks.0.1.dw_conv.conv.weight
+param_names[113]=neck.bottom_up_blocks.0.1.dw_conv.conv.bias
+param_names[114]=neck.bottom_up_blocks.0.1.pw_conv.conv.weight
+param_names[115]=neck.bottom_up_blocks.0.1.pw_conv.conv.bias
+param_names[116]=neck.bottom_up_blocks.1.0.dw_conv.conv.weight
+param_names[117]=neck.bottom_up_blocks.1.0.dw_conv.conv.bias
+param_names[118]=neck.bottom_up_blocks.1.0.pw_conv.conv.weight
+param_names[119]=neck.bottom_up_blocks.1.0.pw_conv.conv.bias
+param_names[120]=neck.bottom_up_blocks.1.1.dw_conv.conv.weight
+param_names[121]=neck.bottom_up_blocks.1.1.dw_conv.conv.bias
+param_names[122]=neck.bottom_up_blocks.1.1.pw_conv.conv.weight
+param_names[123]=neck.bottom_up_blocks.1.1.pw_conv.conv.bias
+param_names[124]=head.conv_feat.cls_conv_dw0.0.conv.weight
+param_names[125]=head.conv_feat.cls_conv_dw0.0.conv.bias
+param_names[126]=head.conv_feat.cls_conv_dw0.1.conv.weight
+param_names[127]=head.conv_feat.cls_conv_dw0.1.conv.bias
+param_names[128]=head.conv_feat.cls_conv_pw0.0.conv.weight
+param_names[129]=head.conv_feat.cls_conv_pw0.0.conv.bias
+param_names[130]=head.conv_feat.cls_conv_pw0.1.conv.weight
+param_names[131]=head.conv_feat.cls_conv_pw0.1.conv.bias
+param_names[132]=head.conv_feat.cls_conv_dw1.0.conv.weight
+param_names[133]=head.conv_feat.cls_conv_dw1.0.conv.bias
+param_names[134]=head.conv_feat.cls_conv_dw1.1.conv.weight
+param_names[135]=head.conv_feat.cls_conv_dw1.1.conv.bias
+param_names[136]=head.conv_feat.cls_conv_pw1.0.conv.weight
+param_names[137]=head.conv_feat.cls_conv_pw1.0.conv.bias
+param_names[138]=head.conv_feat.cls_conv_pw1.1.conv.weight
+param_names[139]=head.conv_feat.cls_conv_pw1.1.conv.bias
+param_names[140]=head.conv_feat.cls_conv_dw2.0.conv.weight
+param_names[141]=head.conv_feat.cls_conv_dw2.0.conv.bias
+param_names[142]=head.conv_feat.cls_conv_dw2.1.conv.weight
+param_names[143]=head.conv_feat.cls_conv_dw2.1.conv.bias
+param_names[144]=head.conv_feat.cls_conv_pw2.0.conv.weight
+param_names[145]=head.conv_feat.cls_conv_pw2.0.conv.bias
+param_names[146]=head.conv_feat.cls_conv_pw2.1.conv.weight
+param_names[147]=head.conv_feat.cls_conv_pw2.1.conv.bias
+param_names[148]=head.conv_feat.cls_conv_dw3.0.conv.weight
+param_names[149]=head.conv_feat.cls_conv_dw3.0.conv.bias
+param_names[150]=head.conv_feat.cls_conv_dw3.1.conv.weight
+param_names[151]=head.conv_feat.cls_conv_dw3.1.conv.bias
+param_names[152]=head.conv_feat.cls_conv_pw3.0.conv.weight
+param_names[153]=head.conv_feat.cls_conv_pw3.0.conv.bias
+param_names[154]=head.conv_feat.cls_conv_pw3.1.conv.weight
+param_names[155]=head.conv_feat.cls_conv_pw3.1.conv.bias
+param_names[156]=head.conv_feat.se.0.fc.weight
+param_names[157]=head.conv_feat.se.0.fc.bias
+param_names[158]=head.conv_feat.se.0.conv.conv.weight
+param_names[159]=head.conv_feat.se.0.conv.conv.bias
+param_names[160]=head.conv_feat.se.1.fc.weight
+param_names[161]=head.conv_feat.se.1.fc.bias
+param_names[162]=head.conv_feat.se.1.conv.conv.weight
+param_names[163]=head.conv_feat.se.1.conv.conv.bias
+param_names[164]=head.conv_feat.se.2.fc.weight
+param_names[165]=head.conv_feat.se.2.fc.bias
+param_names[166]=head.conv_feat.se.2.conv.conv.weight
+param_names[167]=head.conv_feat.se.2.conv.conv.bias
+param_names[168]=head.conv_feat.se.3.fc.weight
+param_names[169]=head.conv_feat.se.3.fc.bias
+param_names[170]=head.conv_feat.se.3.conv.conv.weight
+param_names[171]=head.conv_feat.se.3.conv.conv.bias
+param_names[172]=head.head_cls0.weight
+param_names[173]=head.head_cls0.bias
+param_names[174]=head.head_reg0.weight
+param_names[175]=head.head_reg0.bias
+param_names[176]=head.head_cls1.weight
+param_names[177]=head.head_cls1.bias
+param_names[178]=head.head_reg1.weight
+param_names[179]=head.head_reg1.bias
+param_names[180]=head.head_cls2.weight
+param_names[181]=head.head_cls2.bias
+param_names[182]=head.head_reg2.weight
+param_names[183]=head.head_reg2.bias
+param_names[184]=head.head_cls3.weight
+param_names[185]=head.head_cls3.bias
+param_names[186]=head.head_reg3.weight
+param_names[187]=head.head_reg3.bias
+param_names[188]=head.cls_align.0.dwconv.weight
+param_names[189]=head.cls_align.0.dwconv.bias
+param_names[190]=head.cls_align.0.pwconv.weight
+param_names[191]=head.cls_align.0.pwconv.bias
+param_names[192]=head.cls_align.1.dwconv.weight
+param_names[193]=head.cls_align.1.dwconv.bias
+param_names[194]=head.cls_align.1.pwconv.weight
+param_names[195]=head.cls_align.1.pwconv.bias
+param_names[196]=head.cls_align.2.dwconv.weight
+param_names[197]=head.cls_align.2.dwconv.bias
+param_names[198]=head.cls_align.2.pwconv.weight
+param_names[199]=head.cls_align.2.pwconv.bias
+param_names[200]=head.cls_align.3.dwconv.weight
+param_names[201]=head.cls_align.3.dwconv.bias
+param_names[202]=head.cls_align.3.pwconv.weight
+param_names[203]=head.cls_align.3.pwconv.bias
+param_names[204]=head.distribution_project.weight
+test/000000000019.jpg
+[ INFO:0@0.465] global c:\build\master_winpack-build-win64-vc14\opencv\modules\core\src\parallel\registry_parallel.impl.hpp (96) cv::parallel::ParallelBackendRegistry::ParallelBackendRegistry core(parallel): Enabled backends(3, sorted by priority): ONETBB(1000); TBB(990); OPENMP(980)
+[ INFO:0@0.465] global c:\build\master_winpack-build-win64-vc14\opencv\modules\core\src\utils\plugin_loader.impl.hpp (67) cv::plugin::impl::DynamicLib::libraryLoad load C:\WINDOWS\SYSTEM32\opencv_core_parallel_onetbb455_64d.dll => FAILED
+[ INFO:0@0.470] global c:\build\master_winpack-build-win64-vc14\opencv\modules\core\src\utils\plugin_loader.impl.hpp (67) cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_onetbb455_64d.dll => FAILED
+[ INFO:0@0.471] global c:\build\master_winpack-build-win64-vc14\opencv\modules\core\src\utils\plugin_loader.impl.hpp (67) cv::plugin::impl::DynamicLib::libraryLoad load C:\WINDOWS\SYSTEM32\opencv_core_parallel_tbb455_64d.dll => FAILED
+[ INFO:0@0.476] global c:\build\master_winpack-build-win64-vc14\opencv\modules\core\src\utils\plugin_loader.impl.hpp (67) cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_tbb455_64d.dll => FAILED
+[ INFO:0@0.477] global c:\build\master_winpack-build-win64-vc14\opencv\modules\core\src\utils\plugin_loader.impl.hpp (67) cv::plugin::impl::DynamicLib::libraryLoad load C:\WINDOWS\SYSTEM32\opencv_core_parallel_openmp455_64d.dll => FAILED
+[ INFO:0@0.482] global c:\build\master_winpack-build-win64-vc14\opencv\modules\core\src\utils\plugin_loader.impl.hpp (67) cv::plugin::impl::DynamicLib::libraryLoad load opencv_core_parallel_openmp455_64d.dll => FAILED
+HW=173056
+C=3
+HWC=519168
+0.604932, 1.098039, 2.343704, 0.639181, 1.098039, 2.343704, 0.673431, 1.028011, 2.326274, 0.656306, 1.045518, 2.326274, 0.673431, 1.045518, 2.326274, 0.656306, 1.080532, 2.343704, 0.570682, 1.045518, 2.308845, 0.604932, 1.063025, 2.361133, 0.656306, 1.063025, 2.378562, 0.673431, 1.010504, 2.308845,
+create Tensor, id=0, dims=4, numel=519168
+create Tensor, id=1, dims=3, numel=33600
+create Tensor, id=2, dims=2, numel=1168128
+create Tensor, id=3, dims=4, numel=692224
+create Tensor, id=4, dims=4, numel=692224
+create Tensor, id=5, dims=4, numel=692224
+create Tensor, id=6, dims=4, numel=692224
+create Tensor, id=7, dims=4, numel=1038336
+create Tensor, id=8, dims=4, numel=1038336
+create Tensor, id=9, dims=4, numel=259584
+create Tensor, id=10, dims=4, numel=259584
+create Tensor, id=11, dims=4, numel=519168
+create Tensor, id=12, dims=4, numel=519168
+create Tensor, id=13, dims=4, numel=519168
+create Tensor, id=14, dims=4, numel=519168
+create Tensor, id=15, dims=4, numel=519168
+create Tensor, id=16, dims=4, numel=519168
+create Tensor, id=17, dims=4, numel=129792
+create Tensor, id=18, dims=4, numel=129792
+create Tensor, id=19, dims=4, numel=259584
+create Tensor, id=20, dims=4, numel=259584
+create Tensor, id=21, dims=4, numel=259584
+create Tensor, id=22, dims=4, numel=259584
+create Tensor, id=23, dims=4, numel=259584
+create Tensor, id=24, dims=4, numel=259584
+create Tensor, id=25, dims=4, numel=64896
+create Tensor, id=26, dims=4, numel=64896
+create Tensor, id=27, dims=4, numel=129792
+create Tensor, id=28, dims=4, numel=129792
+create Tensor, id=29, dims=4, numel=129792
+create Tensor, id=30, dims=4, numel=129792
+create Tensor, id=31, dims=4, numel=129792
+create Tensor, id=32, dims=4, numel=129792
+create Tensor, id=33, dims=4, numel=129792
+create Tensor, id=34, dims=4, numel=129792
+create Tensor, id=35, dims=4, numel=129792
+create Tensor, id=36, dims=4, numel=129792
+create Tensor, id=37, dims=4, numel=129792
+create Tensor, id=38, dims=4, numel=129792
+create Tensor, id=39, dims=4, numel=129792
+create Tensor, id=40, dims=4, numel=129792
+create Tensor, id=41, dims=4, numel=129792
+create Tensor, id=42, dims=4, numel=129792
+create Tensor, id=43, dims=4, numel=129792
+create Tensor, id=44, dims=4, numel=129792
+create Tensor, id=45, dims=4, numel=129792
+create Tensor, id=46, dims=4, numel=129792
+create Tensor, id=47, dims=4, numel=129792
+create Tensor, id=48, dims=4, numel=129792
+create Tensor, id=49, dims=4, numel=32448
+create Tensor, id=50, dims=4, numel=32448
+create Tensor, id=51, dims=4, numel=192
+create Tensor, id=52, dims=4, numel=48
+create Tensor, id=53, dims=4, numel=48
+create Tensor, id=54, dims=4, numel=192
+create Tensor, id=55, dims=4, numel=192
+create Tensor, id=56, dims=4, numel=64896
+create Tensor, id=57, dims=4, numel=64896
+create Tensor, id=58, dims=4, numel=64896
+create Tensor, id=59, dims=4, numel=64896
+create Tensor, id=60, dims=4, numel=384
+create Tensor, id=61, dims=4, numel=96
+create Tensor, id=62, dims=4, numel=96
+create Tensor, id=63, dims=4, numel=384
+create Tensor, id=64, dims=4, numel=384
+create Tensor, id=65, dims=4, numel=64896
+create Tensor, id=66, dims=4, numel=64896
+create Tensor, id=67, dims=4, numel=259584
+create Tensor, id=68, dims=4, numel=259584
+create Tensor, id=69, dims=4, numel=64896
+create Tensor, id=70, dims=4, numel=64896
+create Tensor, id=71, dims=4, numel=16224
+create Tensor, id=72, dims=4, numel=16224
+create Tensor, id=73, dims=4, numel=64896
+create Tensor, id=74, dims=4, numel=129792
+create Tensor, id=75, dims=4, numel=129792
+create Tensor, id=76, dims=4, numel=129792
+create Tensor, id=77, dims=4, numel=129792
+create Tensor, id=78, dims=4, numel=129792
+create Tensor, id=79, dims=4, numel=129792
+create Tensor, id=80, dims=4, numel=129792
+create Tensor, id=81, dims=4, numel=64896
+create Tensor, id=82, dims=4, numel=64896
+create Tensor, id=83, dims=4, numel=259584
+create Tensor, id=84, dims=4, numel=519168
+create Tensor, id=85, dims=4, numel=519168
+create Tensor, id=86, dims=4, numel=519168
+create Tensor, id=87, dims=4, numel=519168
+create Tensor, id=88, dims=4, numel=519168
+create Tensor, id=89, dims=4, numel=519168
+create Tensor, id=90, dims=4, numel=519168
+create Tensor, id=91, dims=4, numel=259584
+create Tensor, id=92, dims=4, numel=259584
+create Tensor, id=93, dims=4, numel=64896
+create Tensor, id=94, dims=4, numel=64896
+create Tensor, id=95, dims=4, numel=64896
+create Tensor, id=96, dims=4, numel=64896
+create Tensor, id=97, dims=4, numel=129792
+create Tensor, id=98, dims=4, numel=129792
+create Tensor, id=99, dims=4, numel=129792
+create Tensor, id=100, dims=4, numel=129792
+create Tensor, id=101, dims=4, numel=129792
+create Tensor, id=102, dims=4, numel=129792
+create Tensor, id=103, dims=4, numel=129792
+create Tensor, id=104, dims=4, numel=64896
+create Tensor, id=105, dims=4, numel=64896
+create Tensor, id=106, dims=4, numel=16224
+create Tensor, id=107, dims=4, numel=16224
+create Tensor, id=108, dims=4, numel=16224
+create Tensor, id=109, dims=4, numel=16224
+create Tensor, id=110, dims=4, numel=32448
+create Tensor, id=111, dims=4, numel=32448
+create Tensor, id=112, dims=4, numel=32448
+create Tensor, id=113, dims=4, numel=32448
+create Tensor, id=114, dims=4, numel=32448
+create Tensor, id=115, dims=4, numel=32448
+create Tensor, id=116, dims=4, numel=32448
+create Tensor, id=117, dims=4, numel=16224
+create Tensor, id=118, dims=4, numel=16224
+create Tensor, id=119, dims=4, numel=4704
+create Tensor, id=120, dims=4, numel=4704
+create Tensor, id=121, dims=4, numel=4704
+create Tensor, id=122, dims=4, numel=4704
+create Tensor, id=123, dims=4, numel=4704
+create Tensor, id=124, dims=4, numel=4704
+create Tensor, id=125, dims=4, numel=4704
+create Tensor, id=126, dims=4, numel=4704
+create Tensor, id=127, dims=4, numel=259584
+create Tensor, id=128, dims=4, numel=259584
+create Tensor, id=129, dims=4, numel=259584
+create Tensor, id=130, dims=4, numel=259584
+create Tensor, id=131, dims=4, numel=259584
+create Tensor, id=132, dims=4, numel=259584
+create Tensor, id=133, dims=4, numel=259584
+create Tensor, id=134, dims=4, numel=259584
+create Tensor, id=135, dims=4, numel=96
+create Tensor, id=136, dims=4, numel=96
+create Tensor, id=137, dims=4, numel=259584
+create Tensor, id=138, dims=4, numel=259584
+create Tensor, id=139, dims=4, numel=259584
+create Tensor, id=140, dims=4, numel=216320
+create Tensor, id=141, dims=4, numel=86528
+create Tensor, id=142, dims=2, numel=6489600
+create Tensor, id=143, dims=4, numel=2704
+create Tensor, id=144, dims=4, numel=2704
+create Tensor, id=145, dims=4, numel=2704
+create Tensor, id=146, dims=4, numel=10816
+create Tensor, id=147, dims=4, numel=64896
+create Tensor, id=148, dims=4, numel=64896
+create Tensor, id=149, dims=4, numel=64896
+create Tensor, id=150, dims=4, numel=64896
+create Tensor, id=151, dims=4, numel=64896
+create Tensor, id=152, dims=4, numel=64896
+create Tensor, id=153, dims=4, numel=64896
+create Tensor, id=154, dims=4, numel=64896
+create Tensor, id=155, dims=4, numel=96
+create Tensor, id=156, dims=4, numel=96
+create Tensor, id=157, dims=4, numel=64896
+create Tensor, id=158, dims=4, numel=64896
+create Tensor, id=159, dims=4, numel=64896
+create Tensor, id=160, dims=4, numel=54080
+create Tensor, id=161, dims=4, numel=21632
+create Tensor, id=162, dims=2, numel=1622400
+create Tensor, id=163, dims=4, numel=676
+create Tensor, id=164, dims=4, numel=676
+create Tensor, id=165, dims=4, numel=676
+create Tensor, id=166, dims=4, numel=2704
+create Tensor, id=167, dims=4, numel=16224
+create Tensor, id=168, dims=4, numel=16224
+create Tensor, id=169, dims=4, numel=16224
+create Tensor, id=170, dims=4, numel=16224
+create Tensor, id=171, dims=4, numel=16224
+create Tensor, id=172, dims=4, numel=16224
+create Tensor, id=173, dims=4, numel=16224
+create Tensor, id=174, dims=4, numel=16224
+create Tensor, id=175, dims=4, numel=96
+create Tensor, id=176, dims=4, numel=96
+create Tensor, id=177, dims=4, numel=16224
+create Tensor, id=178, dims=4, numel=16224
+create Tensor, id=179, dims=4, numel=16224
+create Tensor, id=180, dims=4, numel=13520
+create Tensor, id=181, dims=4, numel=5408
+create Tensor, id=182, dims=2, numel=405600
+create Tensor, id=183, dims=4, numel=169
+create Tensor, id=184, dims=4, numel=169
+create Tensor, id=185, dims=4, numel=169
+create Tensor, id=186, dims=4, numel=676
+create Tensor, id=187, dims=4, numel=4704
+create Tensor, id=188, dims=4, numel=4704
+create Tensor, id=189, dims=4, numel=4704
+create Tensor, id=190, dims=4, numel=4704
+create Tensor, id=191, dims=4, numel=4704
+create Tensor, id=192, dims=4, numel=4704
+create Tensor, id=193, dims=4, numel=4704
+create Tensor, id=194, dims=4, numel=4704
+create Tensor, id=195, dims=4, numel=96
+create Tensor, id=196, dims=4, numel=96
+create Tensor, id=197, dims=4, numel=4704
+create Tensor, id=198, dims=4, numel=4704
+create Tensor, id=199, dims=4, numel=4704
+create Tensor, id=200, dims=4, numel=3920
+create Tensor, id=201, dims=4, numel=1568
+create Tensor, id=202, dims=2, numel=117600
+create Tensor, id=203, dims=4, numel=49
+create Tensor, id=204, dims=4, numel=49
+create Tensor, id=205, dims=4, numel=49
+create Tensor, id=206, dims=4, numel=196
+create Tensor, id=207, dims=3, numel=287840
+create Tensor, id=208, dims=3, numel=14392
+======================== eval ========================
+======================== batch_000 ========================
+eval forward cost_time = 83.935997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_001 ========================
+eval forward cost_time = 83.571999 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_002 ========================
+eval forward cost_time = 85.600998 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_003 ========================
+eval forward cost_time = 83.324997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_004 ========================
+eval forward cost_time = 88.366997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_005 ========================
+eval forward cost_time = 84.897003 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_006 ========================
+eval forward cost_time = 85.906998 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_007 ========================
+eval forward cost_time = 80.650002 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_008 ========================
+eval forward cost_time = 86.195000 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_009 ========================
+eval forward cost_time = 82.000999 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_010 ========================
+eval forward cost_time = 82.422997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_011 ========================
+eval forward cost_time = 81.208000 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_012 ========================
+eval forward cost_time = 80.351997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_013 ========================
+eval forward cost_time = 80.769997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_014 ========================
+eval forward cost_time = 83.692001 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_015 ========================
+eval forward cost_time = 86.067001 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_016 ========================
+eval forward cost_time = 85.695999 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_017 ========================
+eval forward cost_time = 83.334000 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_018 ========================
+eval forward cost_time = 83.575996 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_019 ========================
+eval forward cost_time = 84.213997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_020 ========================
+eval forward cost_time = 84.258003 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_021 ========================
+eval forward cost_time = 79.486000 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_022 ========================
+eval forward cost_time = 83.136002 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_023 ========================
+eval forward cost_time = 82.892998 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_024 ========================
+eval forward cost_time = 84.143997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_025 ========================
+eval forward cost_time = 84.579002 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_026 ========================
+eval forward cost_time = 85.005997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_027 ========================
+eval forward cost_time = 86.738998 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_028 ========================
+eval forward cost_time = 83.780998 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+======================== batch_029 ========================
+eval forward cost_time = 86.394997 ms
+Tensor 'y' msg: id=207, dims=3, numel=287840, shape=(1, 3598, 80, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.005782, 0.000965, 0.001626, 0.001318, 0.001787, 0.001465, 0.003241, 0.002462, 0.002324, 0.000950, 0.002006, 0.001179, 0.001486, 0.001729, 0.003037, 0.001828, 0.001618, 0.001032, 0.001600, 0.002570, 0.000642, 0.000902, 0.001171, 0.000557, 0.001886, 0.000956, 0.002021, 0.000784, 0.003438, 0.000531,
+Tensor 'y' msg: id=208, dims=3, numel=14392, shape=(1, 3598, 4, ), is_param=0, times_as_input=0, referenceCount=2,
+data=0.433553, 0.490761, 1.270477, 5.960395, 1.447797, 0.393369, 1.770471, 6.090525, 2.422038, 0.318270, 2.444967, 6.064816, 3.447904, 0.328929, 4.198209, 5.944283, 4.487549, 0.335687, 3.817852, 4.944101, 5.524936, 0.346838, 3.340080, 4.204641, 6.697099, 0.345470, 2.674842, 4.110531, 5.992443, 0.351748,
+delete Param, id=19950865, dims=4, numel=432
+delete Param, id=19950866, dims=4, numel=16
+delete Tensor, id=0, dims=4, numel=519168
+delete Tensor, id=2, dims=2, numel=1168128
+delete Tensor, id=3, dims=4, numel=692224
+delete Param, id=19950867, dims=4, numel=144
+delete Param, id=19950868, dims=4, numel=16
+delete Tensor, id=4, dims=4, numel=692224
+delete Tensor, id=5, dims=4, numel=692224
+delete Param, id=19950869, dims=4, numel=384
+delete Param, id=19950870, dims=4, numel=24
+delete Tensor, id=6, dims=4, numel=692224
+delete Tensor, id=7, dims=4, numel=1038336
+delete Param, id=19950875, dims=4, numel=432
+delete Param, id=19950876, dims=4, numel=48
+delete Tensor, id=13, dims=4, numel=519168
+delete Param, id=19950877, dims=4, numel=2304
+delete Param, id=19950878, dims=4, numel=48
+delete Tensor, id=14, dims=4, numel=519168
+delete Tensor, id=15, dims=4, numel=519168
+delete Param, id=19950871, dims=4, numel=216
+delete Param, id=19950872, dims=4, numel=24
+delete Tensor, id=8, dims=4, numel=1038336
+delete Tensor, id=9, dims=4, numel=259584
+delete Param, id=19950873, dims=4, numel=1152
+delete Param, id=19950874, dims=4, numel=48
+delete Tensor, id=10, dims=4, numel=259584
+delete Tensor, id=11, dims=4, numel=519168
+delete Tensor, id=12, dims=4, numel=519168
+delete Param, id=19950883, dims=4, numel=864
+delete Param, id=19950884, dims=4, numel=96
+delete Tensor, id=21, dims=4, numel=259584
+delete Param, id=19950885, dims=4, numel=9216
+delete Param, id=19950886, dims=4, numel=96
+delete Tensor, id=22, dims=4, numel=259584
+delete Tensor, id=23, dims=4, numel=259584
+delete Param, id=19950879, dims=4, numel=432
+delete Param, id=19950880, dims=4, numel=48
+delete Tensor, id=16, dims=4, numel=519168
+delete Tensor, id=17, dims=4, numel=129792
+delete Param, id=19950881, dims=4, numel=4608
+delete Param, id=19950882, dims=4, numel=96
+delete Tensor, id=18, dims=4, numel=129792
+delete Tensor, id=19, dims=4, numel=259584
+delete Tensor, id=20, dims=4, numel=259584
+delete Param, id=19950907, dims=4, numel=4800
+delete Param, id=19950908, dims=4, numel=192
+delete Tensor, id=45, dims=4, numel=129792
+delete Param, id=19950909, dims=4, numel=36864
+delete Param, id=19950910, dims=4, numel=192
+delete Tensor, id=46, dims=4, numel=129792
+delete Tensor, id=47, dims=4, numel=129792
+delete Param, id=19950903, dims=4, numel=4800
+delete Param, id=19950904, dims=4, numel=192
+delete Tensor, id=41, dims=4, numel=129792
+delete Param, id=19950905, dims=4, numel=36864
+delete Param, id=19950906, dims=4, numel=192
+delete Tensor, id=42, dims=4, numel=129792
+delete Tensor, id=43, dims=4, numel=129792
+delete Tensor, id=44, dims=4, numel=129792
+delete Param, id=19950899, dims=4, numel=4800
+delete Param, id=19950900, dims=4, numel=192
+delete Tensor, id=37, dims=4, numel=129792
+delete Param, id=19950901, dims=4, numel=36864
+delete Param, id=19950902, dims=4, numel=192
+delete Tensor, id=38, dims=4, numel=129792
+delete Tensor, id=39, dims=4, numel=129792
+delete Tensor, id=40, dims=4, numel=129792
+delete Param, id=19950895, dims=4, numel=4800
+delete Param, id=19950896, dims=4, numel=192
+delete Tensor, id=33, dims=4, numel=129792
+delete Param, id=19950897, dims=4, numel=36864
+delete Param, id=19950898, dims=4, numel=192
+delete Tensor, id=34, dims=4, numel=129792
+delete Tensor, id=35, dims=4, numel=129792
+delete Tensor, id=36, dims=4, numel=129792
+delete Param, id=19950891, dims=4, numel=4800
+delete Param, id=19950892, dims=4, numel=192
+delete Tensor, id=29, dims=4, numel=129792
+delete Param, id=19950893, dims=4, numel=36864
+delete Param, id=19950894, dims=4, numel=192
+delete Tensor, id=30, dims=4, numel=129792
+delete Tensor, id=31, dims=4, numel=129792
+delete Tensor, id=32, dims=4, numel=129792
+delete Param, id=19950887, dims=4, numel=864
+delete Param, id=19950888, dims=4, numel=96
+delete Tensor, id=25, dims=4, numel=64896
+delete Param, id=19950889, dims=4, numel=18432
+delete Param, id=19950890, dims=4, numel=192
+delete Tensor, id=26, dims=4, numel=64896
+delete Tensor, id=27, dims=4, numel=129792
+delete Tensor, id=28, dims=4, numel=129792
+delete Param, id=19950919, dims=4, numel=9600
+delete Param, id=19950920, dims=4, numel=384
+delete Tensor, id=58, dims=4, numel=64896
+delete Param, id=19950921, dims=4, numel=147456
+delete Param, id=19950922, dims=4, numel=384
+delete Tensor, id=65, dims=4, numel=64896
+delete Param, id=19950923, dims=4, numel=36864
+delete Param, id=19950924, dims=4, numel=96
+delete Param, id=19950925, dims=4, numel=36864
+delete Param, id=19950926, dims=4, numel=384
+delete Tensor, id=61, dims=4, numel=96
+delete Tensor, id=62, dims=4, numel=96
+delete Tensor, id=63, dims=4, numel=384
+delete Tensor, id=64, dims=4, numel=384
+delete Tensor, id=59, dims=4, numel=64896
+delete Tensor, id=60, dims=4, numel=384
+delete Param, id=19950911, dims=4, numel=4800
+delete Param, id=19950912, dims=4, numel=192
+delete Tensor, id=49, dims=4, numel=32448
+delete Param, id=19950913, dims=4, numel=73728
+delete Param, id=19950914, dims=4, numel=384
+delete Tensor, id=56, dims=4, numel=64896
+delete Tensor, id=57, dims=4, numel=64896
+delete Param, id=19950915, dims=4, numel=9216
+delete Param, id=19950916, dims=4, numel=48
+delete Param, id=19950917, dims=4, numel=9216
+delete Param, id=19950918, dims=4, numel=192
+delete Tensor, id=52, dims=4, numel=48
+delete Tensor, id=53, dims=4, numel=48
+delete Tensor, id=54, dims=4, numel=192
+delete Tensor, id=55, dims=4, numel=192
+delete Tensor, id=50, dims=4, numel=32448
+delete Tensor, id=51, dims=4, numel=192
+delete Param, id=19950931, dims=4, numel=36864
+delete Param, id=19950932, dims=4, numel=96
+delete Tensor, id=66, dims=4, numel=64896
+delete Tensor, id=71, dims=4, numel=16224
+delete Param, id=19950929, dims=4, numel=18432
+delete Param, id=19950930, dims=4, numel=96
+delete Tensor, id=48, dims=4, numel=129792
+delete Tensor, id=69, dims=4, numel=64896
+delete Param, id=19950927, dims=4, numel=9216
+delete Param, id=19950928, dims=4, numel=96
+delete Tensor, id=24, dims=4, numel=259584
+delete Tensor, id=67, dims=4, numel=259584
+delete Param, id=19950933, dims=4, numel=2400
+delete Param, id=19950934, dims=4, numel=96
+delete Param, id=19950935, dims=4, numel=9216
+delete Param, id=19950936, dims=4, numel=96
+delete Tensor, id=119, dims=4, numel=4704
+delete Tensor, id=120, dims=4, numel=4704
+delete Tensor, id=121, dims=4, numel=4704
+delete Param, id=19950937, dims=4, numel=2400
+delete Param, id=19950938, dims=4, numel=96
+delete Param, id=19950939, dims=4, numel=9216
+delete Param, id=19950940, dims=4, numel=96
+delete Tensor, id=123, dims=4, numel=4704
+delete Tensor, id=124, dims=4, numel=4704
+delete Tensor, id=125, dims=4, numel=4704
+delete Tensor, id=126, dims=4, numel=4704
+delete Param, id=19950961, dims=4, numel=4800
+delete Param, id=19950962, dims=4, numel=192
+delete Param, id=19950963, dims=4, numel=18432
+delete Param, id=19950964, dims=4, numel=96
+delete Param, id=19950957, dims=4, numel=4800
+delete Param, id=19950958, dims=4, numel=192
+delete Param, id=19950959, dims=4, numel=36864
+delete Param, id=19950960, dims=4, numel=192
+delete Param, id=19950953, dims=4, numel=4800
+delete Param, id=19950954, dims=4, numel=192
+delete Tensor, id=89, dims=4, numel=519168
+delete Param, id=19950955, dims=4, numel=18432
+delete Param, id=19950956, dims=4, numel=96
+delete Tensor, id=90, dims=4, numel=519168
+delete Tensor, id=91, dims=4, numel=259584
+delete Param, id=19950949, dims=4, numel=4800
+delete Param, id=19950950, dims=4, numel=192
+delete Tensor, id=85, dims=4, numel=519168
+delete Param, id=19950951, dims=4, numel=36864
+delete Param, id=19950952, dims=4, numel=192
+delete Tensor, id=86, dims=4, numel=519168
+delete Tensor, id=87, dims=4, numel=519168
+delete Tensor, id=88, dims=4, numel=519168
+delete Param, id=19950945, dims=4, numel=4800
+delete Param, id=19950946, dims=4, numel=192
+delete Tensor, id=79, dims=4, numel=129792
+delete Param, id=19950947, dims=4, numel=18432
+delete Param, id=19950948, dims=4, numel=96
+delete Tensor, id=80, dims=4, numel=129792
+delete Tensor, id=81, dims=4, numel=64896
+delete Param, id=19950941, dims=4, numel=4800
+delete Param, id=19950942, dims=4, numel=192
+delete Tensor, id=75, dims=4, numel=129792
+delete Param, id=19950943, dims=4, numel=36864
+delete Param, id=19950944, dims=4, numel=192
+delete Tensor, id=76, dims=4, numel=129792
+delete Tensor, id=77, dims=4, numel=129792
+delete Tensor, id=78, dims=4, numel=129792
+delete Param, id=19950985, dims=4, numel=2400
+delete Param, id=19950986, dims=4, numel=96
+delete Param, id=19950987, dims=4, numel=9216
+delete Param, id=19950988, dims=4, numel=96
+delete Tensor, id=106, dims=4, numel=16224
+delete Tensor, id=107, dims=4, numel=16224
+delete Tensor, id=108, dims=4, numel=16224
+delete Param, id=19950973, dims=4, numel=2400
+delete Param, id=19950974, dims=4, numel=96
+delete Param, id=19950975, dims=4, numel=9216
+delete Param, id=19950976, dims=4, numel=96
+delete Tensor, id=93, dims=4, numel=64896
+delete Tensor, id=94, dims=4, numel=64896
+delete Tensor, id=95, dims=4, numel=64896
+delete Param, id=19950981, dims=4, numel=4800
+delete Param, id=19950982, dims=4, numel=192
+delete Tensor, id=115, dims=4, numel=32448
+delete Param, id=19950983, dims=4, numel=18432
+delete Param, id=19950984, dims=4, numel=96
+delete Tensor, id=116, dims=4, numel=32448
+delete Tensor, id=117, dims=4, numel=16224
+delete Param, id=19950977, dims=4, numel=4800
+delete Param, id=19950978, dims=4, numel=192
+delete Tensor, id=111, dims=4, numel=32448
+delete Param, id=19950979, dims=4, numel=36864
+delete Param, id=19950980, dims=4, numel=192
+delete Tensor, id=112, dims=4, numel=32448
+delete Tensor, id=113, dims=4, numel=32448
+delete Tensor, id=114, dims=4, numel=32448
+delete Param, id=19950969, dims=4, numel=4800
+delete Param, id=19950970, dims=4, numel=192
+delete Tensor, id=102, dims=4, numel=129792
+delete Param, id=19950971, dims=4, numel=18432
+delete Param, id=19950972, dims=4, numel=96
+delete Tensor, id=103, dims=4, numel=129792
+delete Tensor, id=104, dims=4, numel=64896
+delete Param, id=19950965, dims=4, numel=4800
+delete Param, id=19950966, dims=4, numel=192
+delete Tensor, id=98, dims=4, numel=129792
+delete Param, id=19950967, dims=4, numel=36864
+delete Param, id=19950968, dims=4, numel=192
+delete Tensor, id=99, dims=4, numel=129792
+delete Tensor, id=100, dims=4, numel=129792
+delete Tensor, id=101, dims=4, numel=129792
+delete Tensor, id=109, dims=4, numel=16224
+delete Tensor, id=110, dims=4, numel=32448
+delete Tensor, id=96, dims=4, numel=64896
+delete Tensor, id=97, dims=4, numel=129792
+delete Tensor, id=68, dims=4, numel=259584
+delete Tensor, id=83, dims=4, numel=259584
+delete Tensor, id=84, dims=4, numel=519168
+delete Tensor, id=70, dims=4, numel=64896
+delete Tensor, id=73, dims=4, numel=64896
+delete Tensor, id=74, dims=4, numel=129792
+delete Tensor, id=72, dims=4, numel=16224
+delete Tensor, id=82, dims=4, numel=64896
+delete Param, id=19950821, dims=4, numel=2400
+delete Param, id=19950822, dims=4, numel=96
+delete Param, id=19950817, dims=4, numel=2400
+delete Param, id=19950818, dims=4, numel=96
+delete Tensor, id=92, dims=4, numel=259584
+delete Param, id=19950823, dims=4, numel=9216
+delete Param, id=19950824, dims=4, numel=96
+delete Param, id=19950819, dims=4, numel=9216
+delete Param, id=19950820, dims=4, numel=96
+delete Param, id=19950833, dims=4, numel=2400
+delete Param, id=19950834, dims=4, numel=96
+delete Param, id=19950829, dims=4, numel=2400
+delete Param, id=19950830, dims=4, numel=96
+delete Tensor, id=105, dims=4, numel=64896
+delete Param, id=19950835, dims=4, numel=9216
+delete Param, id=19950836, dims=4, numel=96
+delete Param, id=19950831, dims=4, numel=9216
+delete Param, id=19950832, dims=4, numel=96
+delete Param, id=19950845, dims=4, numel=2400
+delete Param, id=19950846, dims=4, numel=96
+delete Param, id=19950841, dims=4, numel=2400
+delete Param, id=19950842, dims=4, numel=96
+delete Tensor, id=118, dims=4, numel=16224
+delete Param, id=19950847, dims=4, numel=9216
+delete Param, id=19950848, dims=4, numel=96
+delete Param, id=19950843, dims=4, numel=9216
+delete Param, id=19950844, dims=4, numel=96
+delete Param, id=19950857, dims=4, numel=2400
+delete Param, id=19950858, dims=4, numel=96
+delete Param, id=19950853, dims=4, numel=2400
+delete Param, id=19950854, dims=4, numel=96
+delete Tensor, id=122, dims=4, numel=4704
+delete Param, id=19950859, dims=4, numel=9216
+delete Param, id=19950860, dims=4, numel=96
+delete Param, id=19950855, dims=4, numel=9216
+delete Param, id=19950856, dims=4, numel=96
+delete Param, id=19950861, dims=4, numel=9216
+delete Param, id=19950862, dims=4, numel=96
+delete Tensor, id=196, dims=4, numel=96
+delete Param, id=19950863, dims=4, numel=9216
+delete Param, id=19950864, dims=4, numel=96
+delete Tensor, id=197, dims=4, numel=4704
+delete Param, id=19950849, dims=4, numel=9216
+delete Param, id=19950850, dims=4, numel=96
+delete Tensor, id=176, dims=4, numel=96
+delete Param, id=19950851, dims=4, numel=9216
+delete Param, id=19950852, dims=4, numel=96
+delete Tensor, id=177, dims=4, numel=16224
+delete Param, id=19950837, dims=4, numel=9216
+delete Param, id=19950838, dims=4, numel=96
+delete Tensor, id=156, dims=4, numel=96
+delete Param, id=19950839, dims=4, numel=9216
+delete Param, id=19950840, dims=4, numel=96
+delete Tensor, id=157, dims=4, numel=64896
+delete Param, id=19950825, dims=4, numel=9216
+delete Param, id=19950826, dims=4, numel=96
+delete Tensor, id=136, dims=4, numel=96
+delete Param, id=19950827, dims=4, numel=9216
+delete Param, id=19950828, dims=4, numel=96
+delete Tensor, id=137, dims=4, numel=259584
+delete Tensor, id=198, dims=4, numel=4704
+delete Tensor, id=193, dims=4, numel=4704
+delete Tensor, id=191, dims=4, numel=4704
+delete Tensor, id=192, dims=4, numel=4704
+delete Tensor, id=189, dims=4, numel=4704
+delete Tensor, id=190, dims=4, numel=4704
+delete Tensor, id=187, dims=4, numel=4704
+delete Tensor, id=188, dims=4, numel=4704
+delete Tensor, id=178, dims=4, numel=16224
+delete Tensor, id=173, dims=4, numel=16224
+delete Tensor, id=171, dims=4, numel=16224
+delete Tensor, id=172, dims=4, numel=16224
+delete Tensor, id=169, dims=4, numel=16224
+delete Tensor, id=170, dims=4, numel=16224
+delete Tensor, id=167, dims=4, numel=16224
+delete Tensor, id=168, dims=4, numel=16224
+delete Tensor, id=158, dims=4, numel=64896
+delete Tensor, id=153, dims=4, numel=64896
+delete Tensor, id=151, dims=4, numel=64896
+delete Tensor, id=152, dims=4, numel=64896
+delete Tensor, id=149, dims=4, numel=64896
+delete Tensor, id=150, dims=4, numel=64896
+delete Tensor, id=147, dims=4, numel=64896
+delete Tensor, id=148, dims=4, numel=64896
+delete Tensor, id=138, dims=4, numel=259584
+delete Tensor, id=133, dims=4, numel=259584
+delete Tensor, id=131, dims=4, numel=259584
+delete Tensor, id=132, dims=4, numel=259584
+delete Tensor, id=129, dims=4, numel=259584
+delete Tensor, id=130, dims=4, numel=259584
+delete Tensor, id=127, dims=4, numel=259584
+delete Tensor, id=128, dims=4, numel=259584
+delete Tensor, id=195, dims=4, numel=96
+delete Tensor, id=175, dims=4, numel=96
+delete Tensor, id=155, dims=4, numel=96
+delete Tensor, id=135, dims=4, numel=96
+delete Param, id=19950989, dims=4, numel=7680
+delete Param, id=19950990, dims=4, numel=80
+delete Param, id=19950991, dims=4, numel=3072
+delete Param, id=19950992, dims=4, numel=32
+delete Tensor, id=139, dims=4, numel=259584
+delete Param, id=19950997, dims=4, numel=7680
+delete Param, id=19950998, dims=4, numel=80
+delete Param, id=19950999, dims=4, numel=3072
+delete Param, id=19951000, dims=4, numel=32
+delete Tensor, id=159, dims=4, numel=64896
+delete Param, id=19951005, dims=4, numel=7680
+delete Param, id=19951006, dims=4, numel=80
+delete Param, id=19951007, dims=4, numel=3072
+delete Param, id=19951008, dims=4, numel=32
+delete Tensor, id=179, dims=4, numel=16224
+delete Param, id=19951013, dims=4, numel=7680
+delete Param, id=19951014, dims=4, numel=80
+delete Param, id=19951015, dims=4, numel=3072
+delete Param, id=19951016, dims=4, numel=32
+delete Tensor, id=199, dims=4, numel=4704
+delete Param, id=19951017, dims=4, numel=2400
+delete Param, id=19951018, dims=4, numel=1
+delete Tensor, id=194, dims=4, numel=4704
+delete Tensor, id=202, dims=2, numel=117600
+delete Param, id=19951019, dims=4, numel=1
+delete Param, id=19951020, dims=4, numel=1
+delete Tensor, id=205, dims=4, numel=49
+delete Tensor, id=203, dims=4, numel=49
+delete Tensor, id=204, dims=4, numel=49
+delete Param, id=19951009, dims=4, numel=2400
+delete Param, id=19951010, dims=4, numel=1
+delete Tensor, id=174, dims=4, numel=16224
+delete Tensor, id=182, dims=2, numel=405600
+delete Param, id=19951011, dims=4, numel=1
+delete Param, id=19951012, dims=4, numel=1
+delete Tensor, id=185, dims=4, numel=169
+delete Tensor, id=183, dims=4, numel=169
+delete Tensor, id=184, dims=4, numel=169
+delete Param, id=19951001, dims=4, numel=2400
+delete Param, id=19951002, dims=4, numel=1
+delete Tensor, id=154, dims=4, numel=64896
+delete Tensor, id=162, dims=2, numel=1622400
+delete Param, id=19951003, dims=4, numel=1
+delete Param, id=19951004, dims=4, numel=1
+delete Tensor, id=165, dims=4, numel=676
+delete Tensor, id=163, dims=4, numel=676
+delete Tensor, id=164, dims=4, numel=676
+delete Param, id=19950993, dims=4, numel=2400
+delete Param, id=19950994, dims=4, numel=1
+delete Tensor, id=134, dims=4, numel=259584
+delete Tensor, id=142, dims=2, numel=6489600
+delete Param, id=19950995, dims=4, numel=1
+delete Param, id=19950996, dims=4, numel=1
+delete Tensor, id=145, dims=4, numel=2704
+delete Tensor, id=143, dims=4, numel=2704
+delete Tensor, id=144, dims=4, numel=2704
+delete Param, id=19951021, dims=4, numel=8
+delete Tensor, id=201, dims=4, numel=1568
+delete Tensor, id=181, dims=4, numel=5408
+delete Tensor, id=161, dims=4, numel=21632
+delete Tensor, id=141, dims=4, numel=86528
+delete Tensor, id=200, dims=3, numel=3920
+delete Tensor, id=180, dims=3, numel=13520
+delete Tensor, id=160, dims=3, numel=54080
+delete Tensor, id=140, dims=3, numel=216320
+delete Tensor, id=206, dims=3, numel=196
+delete Tensor, id=186, dims=3, numel=676
+delete Tensor, id=166, dims=3, numel=2704
+delete Tensor, id=146, dims=3, numel=10816
+delete Tensor, id=208, dims=3, numel=14392
+delete Tensor, id=207, dims=3, numel=287840
+delete Tensor, id=1, dims=3, numel=33600
+
+D:\GitHub\miemienet2\x64\Debug\miemienet.exe (进程 13372)已退出，代码为 0。
+按任意键关闭此窗口. . .

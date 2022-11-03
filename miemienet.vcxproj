@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{43b0aba3-b134-44cd-ab3c-008096079464}</ProjectGuid>
+    <RootNamespace>miemienet</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\opencv\build\include\opencv2;D:\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\opencv\build\include\opencv2;D:\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalOptions>/D "WINDOWS" /D "BACKEND_X86" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>D:\opencv\build\x64\vc15\lib\opencv_world455d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalOptions>/D "WINDOWS" /D "BACKEND_X86" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>D:\opencv\build\x64\vc15\lib\opencv_world455.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="miemiedet\models\architectures\picodet.cpp" />
+    <ClCompile Include="miemiedet\models\architectures\ppyoloe.cpp" />
+    <ClCompile Include="miemiedet\models\backbones\cspresnet.cpp" />
+    <ClCompile Include="miemiedet\models\backbones\lcnet.cpp" />
+    <ClCompile Include="miemiedet\models\heads\pico_head.cpp" />
+    <ClCompile Include="miemiedet\models\heads\ppyoloe_head.cpp" />
+    <ClCompile Include="miemiedet\models\necks\csp_pan.cpp" />
+    <ClCompile Include="miemiedet\models\necks\custom_pan.cpp" />
+    <ClCompile Include="miemienet\framework\config.cpp" />
+    <ClCompile Include="miemienet\framework\layer.cpp" />
+    <ClCompile Include="miemienet\framework\memoryallocator.cpp" />
+    <ClCompile Include="miemienet\framework\tensor.cpp" />
+    <ClCompile Include="miemienet\framework\tensoridmanager.cpp" />
+    <ClCompile Include="miemienet\miemienet.cpp" />
+    <ClCompile Include="miemienet\nn\activation.cpp" />
+    <ClCompile Include="miemienet\nn\avgpool2d.cpp" />
+    <ClCompile Include="miemienet\nn\common\activation_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\avgpool2d_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\concat_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\conv2d_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\elementwise_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\interp_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\matmul_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\maxpool2d_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\reduce_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\softmax_common.cpp" />
+    <ClCompile Include="miemienet\nn\common\transpose_common.cpp" />
+    <ClCompile Include="miemienet\nn\concat.cpp" />
+    <ClCompile Include="miemienet\nn\conv2d.cpp" />
+    <ClCompile Include="miemienet\nn\interp.cpp" />
+    <ClCompile Include="miemienet\nn\layerlist.cpp" />
+    <ClCompile Include="miemienet\nn\maxpool2d.cpp" />
+    <ClCompile Include="miemienet\nn\reduce.cpp" />
+    <ClCompile Include="miemienet\nn\sequential.cpp" />
+    <ClCompile Include="miemienet\nn\softmax.cpp" />
+    <ClCompile Include="miemienet\nn\transpose.cpp" />
+    <ClCompile Include="test\test2_002_ppyoloe_mm_x86.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="miemiedet\miemiedet.h" />
+    <ClInclude Include="miemiedet\models\architectures\picodet.h" />
+    <ClInclude Include="miemiedet\models\architectures\ppyoloe.h" />
+    <ClInclude Include="miemiedet\models\backbones\cspresnet.h" />
+    <ClInclude Include="miemiedet\models\backbones\lcnet.h" />
+    <ClInclude Include="miemiedet\models\heads\pico_head.h" />
+    <ClInclude Include="miemiedet\models\heads\ppyoloe_head.h" />
+    <ClInclude Include="miemiedet\models\necks\csp_pan.h" />
+    <ClInclude Include="miemiedet\models\necks\custom_pan.h" />
+    <ClInclude Include="miemienet\framework\config.h" />
+    <ClInclude Include="miemienet\framework\layer.h" />
+    <ClInclude Include="miemienet\framework\memoryallocator.h" />
+    <ClInclude Include="miemienet\framework\tensor.h" />
+    <ClInclude Include="miemienet\framework\tensoridmanager.h" />
+    <ClInclude Include="miemienet\macros.h" />
+    <ClInclude Include="miemienet\miemienet.h" />
+    <ClInclude Include="miemienet\nn\activation.h" />
+    <ClInclude Include="miemienet\nn\avgpool2d.h" />
+    <ClInclude Include="miemienet\nn\common\activation_common.h" />
+    <ClInclude Include="miemienet\nn\common\avgpool2d_common.h" />
+    <ClInclude Include="miemienet\nn\common\concat_common.h" />
+    <ClInclude Include="miemienet\nn\common\conv2d_common.h" />
+    <ClInclude Include="miemienet\nn\common\elementwise_common.h" />
+    <ClInclude Include="miemienet\nn\common\interp_common.h" />
+    <ClInclude Include="miemienet\nn\common\matmul_common.h" />
+    <ClInclude Include="miemienet\nn\common\maxpool2d_common.h" />
+    <ClInclude Include="miemienet\nn\common\reduce_common.h" />
+    <ClInclude Include="miemienet\nn\common\softmax_common.h" />
+    <ClInclude Include="miemienet\nn\common\transpose_common.h" />
+    <ClInclude Include="miemienet\nn\concat.h" />
+    <ClInclude Include="miemienet\nn\conv2d.h" />
+    <ClInclude Include="miemienet\nn\interp.h" />
+    <ClInclude Include="miemienet\nn\layerlist.h" />
+    <ClInclude Include="miemienet\nn\maxpool2d.h" />
+    <ClInclude Include="miemienet\nn\reduce.h" />
+    <ClInclude Include="miemienet\nn\sequential.h" />
+    <ClInclude Include="miemienet\nn\softmax.h" />
+    <ClInclude Include="miemienet\nn\transpose.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
