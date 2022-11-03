@@ -16,7 +16,7 @@
 
 ### Windows
 
-1.首先，安装Visual Studio 2022 社区版，安装时，勾选“使用C++的桌面开发”，并在右边“安装详细信息”的“可选”部分勾选需要的部分，如下图所示：
+1.首先，安装Visual Studio 2022 社区版，安装时，勾选“使用C++的桌面开发”，并在右边“安装详细信息”的“可选”部分勾选需要的部分，如下图所示：（如果图片加载太慢或者加载不出来，直接下载miemienet仓库并解压，进入docs/images/文件夹查看图片）
 
 ![Example 0](docs/images/vs2022_install_001.png)
 
@@ -112,9 +112,14 @@ AIStudio主页：[asasasaaawws](https://aistudio.baidu.com/aistudio/personalcent
 
 miemienet借鉴了下面仓库的优秀代码：
 
+[Paddle](https://github.com/PaddlePaddle/Paddle)
+
+[ncnn](https://github.com/Tencent/ncnn)
+
 [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)
 
 [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
 
+[miemiedetection](https://github.com/miemie2013/miemiedetection)
 
 
