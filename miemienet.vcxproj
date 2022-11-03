@@ -193,7 +193,7 @@
     <ClCompile Include="miemienet\nn\sequential.cpp" />
     <ClCompile Include="miemienet\nn\softmax.cpp" />
     <ClCompile Include="miemienet\nn\transpose.cpp" />
-    <ClCompile Include="test\test2_002_ppyoloe_mm_x86.cpp" />
+    <ClCompile Include="test\test_objectdet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="miemiedet\miemiedet.h" />

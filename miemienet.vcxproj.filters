@@ -123,7 +123,7 @@
     <ClCompile Include="miemiedet\models\heads\pico_head.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test\test2_002_ppyoloe_mm_x86.cpp">
+    <ClCompile Include="test\test_objectdet.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

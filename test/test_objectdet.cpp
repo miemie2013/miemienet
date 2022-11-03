@@ -341,11 +341,11 @@ static void draw_objects(const cv::Mat& bgr, const std::vector<Object>& objects)
 int main(int argc, char** argv)
 {
 /*
-python build.py --platform LINUX --cxx g++ --backend BACKEND_X86 --exec_file test2_002_ppyoloe_mm_x86
+python build.py --platform LINUX --cxx g++ --backend BACKEND_X86 --exec_file test_objectdet
 
-./test2_002_ppyoloe_mm_x86.out test/000000014439.jpg ppyoloe test/save_data/ppyoloe_crn_s_300e_coco 640 0.5 0.6
+./test_objectdet.out test/000000014439.jpg ppyoloe test/save_data/ppyoloe_crn_s_300e_coco 640 0.5 0.6
 
-./test2_002_ppyoloe_mm_x86.out test/000000014439.jpg picodet test/save_data/picodet_s_416_coco_lcnet 416 0.5 0.6
+./test_objectdet.out test/000000014439.jpg picodet test/save_data/picodet_s_416_coco_lcnet 416 0.5 0.6
 
 
 PaddleDetection下的模型预测同一张图片：
