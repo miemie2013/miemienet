@@ -18,9 +18,9 @@
 
 1.首先，安装Visual Studio 2022 社区版，安装时，勾选“使用C++的桌面开发”，并在右边“安装详细信息”的“可选”部分勾选需要的部分，如下图所示：（如果图片加载太慢或者加载不出来，直接下载miemienet仓库并解压，进入docs/images/文件夹查看图片）
 
-![Example 0](docs/images/vs2022_install_001.png)
+![docs/images/vs2022_install_001.png](docs/images/vs2022_install_001.png)
 
-![Example 0](docs/images/vs2022_install_002.png)
+![docs/images/vs2022_install_002.png](docs/images/vs2022_install_002.png)
 
 之后等待安装完成即可。
 
@@ -29,7 +29,7 @@
 
 下载opencv.zip，把opencv.zip放在D盘根目录下，解压到当前目录，进入解压后得到的opencv文件夹，你将看到这些：
 
-![Example 0](docs/images/opencv.png)
+![docs/images/opencv.png](docs/images/opencv.png)
 
 3.下载miemienet的代码并解压（或者克隆仓库到本地），用Visual Studio打开解决方案文件miemienet.sln。如果按下Ctrl+F5，你将运行一个目标检测的示例，main()函数位于test/test_objectdet.cpp。但是现在还没有模型文件，需要先转换模型文件：
 
@@ -60,6 +60,121 @@ python tools/infer.py -c configs/picodet/picodet_s_416_coco_lcnet.yml -o weights
 即可。
 
 ### Ubuntu
+
+1.安装gcc9：
+
+打开一个终端，输入以下命令安装gcc9：
+
+```
+sudo apt-get remove gcc gcc-9 gcc-8 -y
+sudo apt-get update
+
+sudo rm -rf /usr/bin/cc
+sudo rm -rf /usr/bin/gcc
+sudo rm -rf /usr/bin/g++
+
+sudo apt install gcc-9 -y
+sudo apt install g++-9 -y
+
+sudo ln -s /usr/bin/gcc-9 /usr/bin/cc
+sudo ln -s /usr/bin/gcc-9 /usr/bin/gcc
+sudo ln -s /usr/bin/g++-9 /usr/bin/g++
+```
+
+2.安装opencv-3.3.1，链接：https://pan.baidu.com/s/1_eevGRb7pmNbg86NzF2O1A 
+提取码：rcos
+
+下载opencv-3.3.1.zip，把opencv-3.3.1.zip放在~/目录下，解压到当前目录，打开一个终端输入以下命令编译安装opencv-3.3.1
+
+```
+cd ~/opencv-3.3.1
+mkdir build
+cd build
+cmake -D BUILD_TIFF=ON -D BUILD_TESTS=OFF ..
+cmake --build . --config Release -j 2
+sudo cmake --build . --config Release --target install
+```
+
+如果在执行命令cmake --build . --config Release -j 2时报错"error: ‘CODEC_FLAG_GLOBAL_HEADER’ was not declared in this scope"，修改~/opencv-3.3.1/modules/videoio/src/cap_ffmpeg_impl.hpp，顶端添加：
+
+```
+#define AV_CODEC_FLAG_GLOBAL_HEADER (1 << 22)
+#define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER
+#define AVFMT_RAWPICTURE 0x0020
+```
+
+保存后，回到终端输入以下命令继续编译安装：
+
+```
+cmake --build . --config Release -j 2
+sudo cmake --build . --config Release --target install
+```
+
+安装完成后，输入命令
+
+
+```
+pkg-config --modversion opencv
+```
+
+如果打印
+
+```
+3.3.1
+```
+
+说明安装成功。修改动态库（共享库）配置文件：
+
+```
+sudo gedit /etc/ld.so.conf
+```
+
+确保这个文件有这2行：
+
+```
+include /etc/ld.so.conf.d/*.conf
+include /usr/local/lib
+```
+
+如果没有，请添加。添加后保存，关闭。在终端里输入这条命令使其生效：
+
+```
+sudo ldconfig
+```
+
+3.下载miemienet的代码并解压（或者克隆仓库到本地），编译运行一个目标检测的示例，main()函数位于test/test_objectdet.cpp。但是现在还没有模型文件，需要先转换模型文件。
+
+在miemienet根目录下打开一个终端，输入以下命令转换模型文件：
+
+```
+cd test
+wget https://paddledet.bj.bcebos.com/models/ppyoloe_crn_s_300e_coco.pdparams
+wget https://paddledet.bj.bcebos.com/models/picodet_s_416_coco_lcnet.pdparams
+python convert_ppdet_tools.py --model_path ppyoloe_crn_s_300e_coco.pdparams
+python convert_ppdet_tools.py --model_path picodet_s_416_coco_lcnet.pdparams
+```
+
+你将会在miemienet的test/save_data文件夹下看到picodet_s_416_coco_lcnet.bin、picodet_s_416_coco_lcnet.mie、ppyoloe_crn_s_300e_coco.bin、ppyoloe_crn_s_300e_coco.mie 这4个文件，这是miemienet能识别的模型文件。
+
+在miemienet根目录下打开一个终端，输入以下命令编译运行目标检测的示例：
+
+```
+python build.py --platform LINUX --cxx g++ --backend BACKEND_X86 --exec_file test_objectdet
+
+./test_objectdet.out test/000000014439.jpg ppyoloe test/save_data/ppyoloe_crn_s_300e_coco 640 0.5 0.6
+
+./test_objectdet.out test/000000014439.jpg picodet test/save_data/picodet_s_416_coco_lcnet 416 0.5 0.6
+
+```
+
+如果你需要对比PaddleDetection下的相同模型预测同一张图片，在PaddleDetection根目录下运行：
+```
+python tools/infer.py -c configs/ppyoloe/ppyoloe_crn_s_300e_coco.yml -o weights=https://paddledet.bj.bcebos.com/models/ppyoloe_crn_s_300e_coco.pdparams --infer_img demo/000000014439.jpg --draw_threshold 0.5
+
+python tools/infer.py -c configs/picodet/picodet_s_416_coco_lcnet.yml -o weights=https://paddledet.bj.bcebos.com/models/picodet_s_416_coco_lcnet.pdparams --infer_img demo/000000014439.jpg --draw_threshold 0.5
+
+```
+即可。
 
 
 ## Updates!!

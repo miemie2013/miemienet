@@ -33,6 +33,17 @@ undefined reference to `cv::imread(std::string const&, int)'
 Ubuntu安装opencv-3.3.1版本
 https://blog.csdn.net/CynalFly/article/details/126784079
 
+
+sudo apt-get install build-essential -y
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev -y
+sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev -y
+sudo apt-get install libjasper-dev -y
+
+
+
+cd ~/opencv-3.3.1
+mkdir build
+cd build
 cmake -D BUILD_TIFF=ON -D BUILD_TESTS=OFF ..
 cmake --build . --config Release -j 2
 sudo cmake --build . --config Release --target install
@@ -41,10 +52,16 @@ sudo cmake --build . --config Release --target install
 error: ‘CODEC_FLAG_GLOBAL_HEADER’ was not declared in this scope
 https://www.cnblogs.com/codeit/p/15748619.html
 
-修改xxx/opencv-x.x.x/modules/videoio/src/cap_ffmpeg_impl.hpp，顶端添加：
+修改~/opencv-3.3.1/modules/videoio/src/cap_ffmpeg_impl.hpp，顶端添加：
 #define AV_CODEC_FLAG_GLOBAL_HEADER (1 << 22)
 #define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER
 #define AVFMT_RAWPICTURE 0x0020
+
+
+jiancha:
+pkg-config --modversion opencv
+
+3.3.1
 
 
 
